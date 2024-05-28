@@ -2,7 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base"
-  ], 
+  ],
   "packageRules": [
     {
       "matchUpdateTypes": [
@@ -13,13 +13,13 @@
       ],
       "automerge": true
     },
-     {
+    {
       "matchDepTypes": [
-        "devDependencies",
+        "devDependencies"
       ],
       "automerge": true
-    },
-    "platformAutomerge": true,
-    "automergeType": "pr"
-  ]
+    }
+  ],
+  "platformAutomerge": true,
+  "automergeType": "pr"
 }
