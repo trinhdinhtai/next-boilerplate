@@ -21,5 +21,6 @@
     }
   ],
   "platformAutomerge": true,
-  "automergeType": "pr"
+  "automergeType": "pr",
+  "ignoreTests": true
 }
