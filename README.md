@@ -1,18 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) starter template that includes basic configurations and structure to help you get started quickly. But it's quite opinionated since it used my own configuration presets, so feel free to customize it to your needs.
 
-## Getting Started
+## What's Included
+
+- Next.js 15
+- React 19
+- TailwindCSS v4
+- TypeScript
+- Shadcn UI
+- Prettier
+- ESLint
+
+## Usage Guide
+
+1. Install dependencies using bun:
+   ```bash
+   bun install
+   ```
+2. Start the development server:
+   ```bash
+   bun run dev
+   ```
+3. Build the project:
+   ```bash
+   bun run build
+   ```
+4. Start the production server:
+   ```bash
+   bun run start
+   ```
 
 First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
