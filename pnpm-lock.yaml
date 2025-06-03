@@ -16,7 +16,7 @@ importers:
         version: 1.2.3(@types/react@18.3.23)(react@18.3.1)
       '@t3-oss/env-nextjs':
         specifier: ^0.11.0
-        version: 0.11.1(typescript@5.8.3)(zod@3.25.42)
+        version: 0.11.1(typescript@5.8.3)(zod@3.25.50)
       '@tailwindcss/postcss':
         specifier: ^4.1.0
         version: 4.1.8
@@ -51,8 +51,8 @@ importers:
         specifier: ^3.0.1
         version: 3.3.0
       zod:
-        specifier: ^3.25.42
-        version: 3.25.42
+        specifier: ^3.25.50
+        version: 3.25.50
     devDependencies:
       '@ianvs/prettier-plugin-sort-imports':
         specifier: ^4.4.1
@@ -2201,8 +2201,8 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
 
-  zod@3.25.42:
-    resolution: {integrity: sha512-PcALTLskaucbeHc41tU/xfjfhcz8z0GdhhDcSgrCTmSazUuqnYqiXO63M0QUBVwpBlsLsNVn5qHSC5Dw3KZvaQ==}
+  zod@3.25.50:
+    resolution: {integrity: sha512-VstOnRxf4tlSq0raIwbn0n+LA34SxVoZ8r3pkwSUM0jqNiA/HCMQEVjTuS5FZmHsge+9MDGTiAuHyml5T0um6A==}
 
 snapshots:
 
@@ -2738,16 +2738,16 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@t3-oss/env-core@0.11.1(typescript@5.8.3)(zod@3.25.42)':
+  '@t3-oss/env-core@0.11.1(typescript@5.8.3)(zod@3.25.50)':
     dependencies:
-      zod: 3.25.42
+      zod: 3.25.50
     optionalDependencies:
       typescript: 5.8.3
 
-  '@t3-oss/env-nextjs@0.11.1(typescript@5.8.3)(zod@3.25.42)':
+  '@t3-oss/env-nextjs@0.11.1(typescript@5.8.3)(zod@3.25.50)':
     dependencies:
-      '@t3-oss/env-core': 0.11.1(typescript@5.8.3)(zod@3.25.42)
-      zod: 3.25.42
+      '@t3-oss/env-core': 0.11.1(typescript@5.8.3)(zod@3.25.50)
+      zod: 3.25.50
     optionalDependencies:
       typescript: 5.8.3
 
@@ -4453,4 +4453,4 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  zod@3.25.42: {}
+  zod@3.25.50: {}
